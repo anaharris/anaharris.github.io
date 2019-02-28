@@ -1,305 +1,308 @@
-  /******************** GENERAL ********************/
+/******************** GENERAL ********************/
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 *:before, *:after {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 html, body {
-  height: 100%;
-  position: relative;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin: 0;
-  min-height: 100%;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
+height: 100%;
+position: relative;
+padding-top: 0px;
+padding-right: 0px;
+padding-left: 0px;
+margin: 0;
+min-height: 100%;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.25rem;
 }
 
 .container {
-   margin-left: auto;
-   margin-right: auto;
-   max-width: 70%;
- }
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 70%;
+}
 
- .home {
-   background-color: #ffdbd1;
-   color: #000;
- }
+.home {
+background-color: #ffdbd1;
+color: #000;
+}
 
- .about {
-   background-color: #FFF;
-   color: #000;
- }
+.about {
+background-color: #FFF;
+color: #000;
+}
 
- a {
-   color: #000;
- }
+a {
+color: #000;
+}
 
- a:hover {
-   text-decoration: none;
- }
+a:hover {
+text-decoration: none;
+}
 
 .wrapper {
-  min-height: 100vh;
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 100px;
+min-height: 100vh;
+overflow: hidden;
+display: block;
+position: relative;
+padding-bottom: 100px;
 }
 
 
- /* NAVBAR */
+/* NAVBAR */
 .navbar {
-  position: relative;
-  overflow: visible;
-  width: 100%;
-  height: 85px;
-  float: left;
-  background-color: transparent;
+position: relative;
+overflow: visible;
+width: 100%;
+height: 85px;
+float: left;
+background-color: transparent;
 }
 
 .nav {
-  z-index: 1000;
+z-index: 1000;
 }
 
 .nav-button {
-  top: 20px;
-  padding-top: 12px;
-  position: relative;
-  vertical-align: top;
-  display: inline-block;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Yantramanav', sans-serif;
-  color: #999999;
-  font-size: 15px;
-  font-weight: 100;
-  text-decoration: none;
+top: 20px;
+padding-top: 12px;
+position: relative;
+vertical-align: top;
+display: inline-block;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Yantramanav', sans-serif;
+color: #999999;
+font-size: 0.9375rem;
+font-weight: 100;
+text-decoration: none;
 }
 
 .nav-button:hover {
-  color: black;
+color: black;
 }
 
 .pink {
-  border-bottom: 3px solid #ffdbd1;
+border-bottom: 3px solid #ffdbd1;
 }
 
 .name-link {
-  text-align: center;
-  padding-left: 0;
-  color: black;
-  font-family: 'Yantramanav', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  letter-spacing: 2px;
+text-align: center;
+padding-left: 0;
+color: black;
+font-family: 'Yantramanav', sans-serif;
+font-weight: 600;
+font-size: 1.125rem;
+letter-spacing: 2px;
 }
 
 .nav-about {
-  float: right;
+float: right;
 }
 
 .nav-projects {
-  float: left;
+float: left;
 }
 
 .nav-name {
-  display: inline-block;
-  position: absolute;
-  left: 46%;
+display: inline-block;
+position: absolute;
+left: 46%;
 }
 
 .nav-arrow {
-  float: right;
+float: right;
 }
 
 .name-link:hover {
-  text-decoration: none;
+text-decoration: none;
 }
 
 /* FOOTER */
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 70%;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-weight: 100;
+position: absolute;
+bottom: 0;
+width: 70%;
+margin-top: 25px;
+margin-bottom: 25px;
+font-weight: 100;
+font-size: 0.75rem;
+font-family: 'Roboto', sans-serif;
 }
 
 .footer-name {
-  text-decoration: none;
+text-decoration: none;
 }
 
 .footer-hr {
-  margin-top: 35px;
-  margin-bottom: 15px;
-  border-width: 0;
-  border-top: 3px solid #ffdbd1;
-  width: 100%;
-  text-align: left;
-  margin-left: 0;
+margin-top: 35px;
+margin-bottom: 15px;
+border-width: 0;
+border-top: 3px solid #ffdbd1;
+width: 100%;
+text-align: left;
+margin-left: 0;
 }
 
 /******************** HOMEPAGE ********************/
 
 .gif-container {
-  display: block;
-  height: 600px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+display: block;
+height: 600px;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 
 .gif-box {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+max-width: 80%;
 }
 
 .gif {
-  padding-top: 10%;
-  float: left;
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
+padding-top: 10%;
+float: left;
+max-width: 100%;
+vertical-align: middle;
+display: inline-block;
 }
 
 #next {
-  padding-top: 40px;
-  width: 30px;
+padding-top: 40px;
+width: 30px;
 }
 
 
 /******************** ABOUT ********************/
 
 .spacer-100 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 .copy-title {
-  width: 65%;
-  margin-bottom: 60px;
-  padding-right: 0px;
-  padding-top: 90px;
-  font-family: 'Playfair Display', sans-serif;
-  color: #000;
-  font-size: 27px;
-  line-height: 45px;
-  font-weight: 500;
-  text-align: left;
+width: 65%;
+margin-bottom: 60px;
+padding-right: 0px;
+padding-top: 90px;
+font-family: 'Playfair Display', sans-serif;
+color: #000;
+font-size: 1.6875rem;
+line-height: 45px;
+font-weight: 500;
+text-align: left;
 }
 
 .copy-body {
-  width: 74%;
-  align-self: flex-start;
-  font-family: 'Roboto', sans-serif;
-  color: #000;
-  line-height: 30px;
-  text-align: left;
-  column-count: 1;
+width: 74%;
+align-self: flex-start;
+font-family: 'Roboto', sans-serif;
+color: #000;
+line-height: 30px;
+text-align: left;
+column-count: 1;
+font-size: 0.875rem;
 }
 
 .wide-image {
-  max-width: 100%;
+max-width: 100%;
 }
 
 .separator {
-  margin: 10px;
+margin: 10px;
 }
 
 .resume {
-  width: 100%;
-  height: 100%;
+width: 100%;
+height: 100%;
 }
 
 /******************** PROJECTS ********************/
 
 .flex-container {
-  height: 100%;
-  width: 100%;
-  padding-top: 40px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+height: 100%;
+width: 100%;
+padding-top: 40px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .flex-item {
-  margin: 20px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 350px;
-  background-color: #ffdbd1;
-  position: relative;
+margin: 20px;
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: 350px;
+background-color: #ffdbd1;
+position: relative;
 }
 
 .flex-title{
-  position: absolute;
-  overflow: hidden;
-  white-space: nowrap;
-  text-align: center;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  height: 40px;
-  font-size: 35px;
-  font-family: 'Playfair Display', sans-serif;
-  line-height: 28px;
-  opacity: 0;
+position: absolute;
+overflow: hidden;
+white-space: nowrap;
+text-align: center;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+margin: auto;
+height: 40px;
+font-size: 35px;
+font-family: 'Playfair Display', sans-serif;
+line-height: 28px;
+opacity: 0;
 }
 
 .project-img {
-  height: 250px;
-  width: 100%;
+height: 250px;
+width: 100%;
 }
 
 .flex-img:hover {
-  opacity: 0;
-  transition-duration: 0.40s;
-  transition-timing-function: ease-in-out;
+opacity: 0;
+transition-duration: 0.40s;
+transition-timing-function: ease-in-out;
 }
 
 .flex-img:hover + .flex-title {
-  opacity: 1;
-  transition-duration: 0.40s;
-  transition-timing-function: ease-in-out;
+opacity: 1;
+transition-duration: 0.40s;
+transition-timing-function: ease-in-out;
 }
 
 .flex-img {
-  z-index: 100;
-  width: 100%;
-  height: 250px;
+z-index: 100;
+width: 100%;
+height: 250px;
 }
 
 .column {
-  width: 40%;
+width: 40%;
 }
 
 
 /****************** PROJECT DETAIL ******************/
 .project {
-  height: 480px;
-  width: 100%;
+height: 480px;
+width: 100%;
 }
 
 .coming-soon {
-  text-align: center;
-  font-size: 35px;
-  font-family: 'Roboto', sans-serif;
-  color: #ffdbd1;
-  font-weight: bolder;
-  justify-content: center;
-  position: relative;
-  top: 50%;
-  margin: auto;
+text-align: center;
+font-size: 2.1875rem;
+font-family: 'Roboto', sans-serif;
+color: #ffdbd1;
+font-weight: bolder;
+justify-content: center;
+position: relative;
+top: 50%;
+margin: auto;
 }
