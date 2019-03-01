@@ -2,19 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ana V Harris | Developer, Linguist</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Yantramanav" rel="stylesheet">
     <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/css/reset.css">
+    <link rel="stylesheet" href="./style/css/index.css">
   </head>
-  <body class="home">
-    <div>
+  <body>
 
+
+    <!-- ******* DESKTOP ******* -->
+
+    <div class="home desktop">
       <!-- HEADER -->
       <div class="navbar home">
         <div class="nav container" role="navigation">
-              <a href="/about" class="nav-button home nav-arrow">
+              <a href="about.html" class="nav-button home nav-arrow">
                 <img id="next" src="./style/assets/arrow.png" alt="Arrow by Rainbow Designs from the Noun Project">
               </a>
         </div>
@@ -26,7 +31,88 @@
           <img src="./style/assets/intro.gif" class="gif" alt="gif picture">
         </div>
       </div>
-
     </div>
+
+
+
+    <!-- ******* MOBILE ******* -->
+
+    <div class="wrapper mobile">
+
+      <!-- HEADER -->
+      <div class="navbar about pink">
+        <div class="nav container" role="navigation">
+            <div class="nav-about">
+              <a href="about.html" class="nav-button about">ABOUT</a>
+            </div>
+            <div class="nav-projects">
+              <a href="index.html" class="nav-button about name-link">ANA HARRIS</a>
+            </div>
+        </div>
+      </div>
+
+      <!-- CONTENT -->
+      <div class="container">
+          <div class="flex-container">
+
+                <div class="flex-item">
+                  <a href="gapgap.html">
+                    <div class="flex-img">
+                      <img class='project-img' src="./style/assets/gapgap.png" alt="GapGap logo">
+                    </div>
+                    <div class="flex-title">
+                      <span>GapGap</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="flex-item">
+                  <a href="district-tree.html">
+                    <div class="flex-img">
+                      <img class="project-img" src="./style/assets/district-tree.png" alt="District Tree logo">
+                    </div>
+                    <div class="flex-title">
+                      <span>District Tree</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="flex-item">
+                  <a href="travel-book.html">
+                    <div class="flex-img">
+                      <img class='project-img' src="./style/assets/travel-book.png" alt="Logo by Ivan Letic">
+                    </div>
+                    <div class="flex-title">
+                      <span>Travel Book</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="flex-item">
+                  <a href="colmar.html">
+                    <div class="flex-img">
+                      <img class='project-img' src="./style/assets/colmar.jpg" alt="Photo by Alexis Brown on Unsplash">
+                    </div>
+                    <div class="flex-title">
+                      <span>Colmar Academy</span>
+                    </div>
+                  </a>
+                </div>
+
+
+          </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div>
+        <div class="container about">
+          <div class="footer">
+            <hr class="footer-hr">
+              &copy; 2019 <a href="mailto:ana.veljkovic.harris@gmail.com?subject=Hello" class="footer-name">Ana V Harris</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
