@@ -277,13 +277,13 @@ a:hover {
   width: 100%;
 }
 
-.flex-img:hover {
+.flex-item:hover img {
   opacity: 0;
   transition-duration: 0.40s;
   transition-timing-function: ease-in-out;
 }
 
-.flex-img:hover + .flex-title {
+.flex-item:hover .flex-title {
   opacity: 1;
   transition-duration: 0.40s;
   transition-timing-function: ease-in-out;
