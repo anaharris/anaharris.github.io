@@ -296,6 +296,10 @@ a:hover {
   width: 100%;
 }
 
+.soon {
+  height: 470px;
+}
+
 .coming-soon {
   text-align: center;
   font-size: 2.1875rem;
