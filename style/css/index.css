@@ -367,21 +367,25 @@ a:hover {
 
 .grid-details {
   flex: 1;
+  padding-bottom: 3%;
 }
 
 .grid-link:hover {
   text-decoration: underline;
 }
 
-
 .grid-images {
   display: flex;
   align-items: center;
-  padding-top: 3%;
+  padding-top: 0.5%;
 }
 
 .grid-img-small {
   flex: 2;
+}
+
+.dt img {
+  padding-left: 3%;
 }
 
 .grid-img-big {
@@ -404,6 +408,10 @@ a:hover {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 940px) {
+
+  .body {
+    font-size: 200%;
+  }
 
   .container {
      margin-left: auto;
@@ -451,9 +459,17 @@ a:hover {
     padding: 3% 0;
   }
 
+  .dt img {
+    padding: 0;
+  }
+
 }
 
 @media only screen and (max-width: 640px) {
+
+  .body {
+    font-size: 300%;
+  }
 
   .container {
     margin-left: auto;
@@ -475,22 +491,6 @@ a:hover {
 
   .mobile {
     display: block;
-  }
-
-  .nav-button {
-    font-size: 0.9rem;
-  }
-
-  .name-link {
-    font-size: 1rem;
-  }
-
-  .copy-body {
-    width: 100%;
-  }
-
-  .spacer-100 {
-    padding-bottom: 0;
   }
 
   .banner {
@@ -517,4 +517,7 @@ a:hover {
     padding: 3% 0;
   }
 
+  .dt img {
+    padding: 0;
+  }
 }
