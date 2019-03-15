@@ -530,6 +530,14 @@ a:hover {
     padding: 3% 0;
   }
 
+  .grid-title {
+    padding: 4% 0;
+  }
+
+  .grid-details {
+    padding-bottom: 6%;
+  }
+
   .dt img {
     padding: 0;
   }
